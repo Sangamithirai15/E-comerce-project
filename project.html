@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>Mithra shopping page</title>
+    <link rel="icon" href="images/logo.jpg">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+
+    <link rel="stylesheet" href="CSS\style.css">
+
+</head>
+
+<body>
+
+    <header>
+        <h1>MITHRA</h1>
+
+    </header>
+    <nav class="navbar navbar-expand-md  navbar-dark custom-nav">
+        <a class="navbar-brand" href="#">SHOPPING SITE</a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#" role="button" onclick="displayItems(1)"><b>HOME APPLIANCES</b></a>
+                </li>
+
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" role="button" data-toggle="dropdown"><b>CLOTHINGS</b></a>
+                    <div class="dropdown-menu dropdown-menu-right">
+
+                        <a href="#" role="button" class="dropdown-item" role="button" onclick="displayItems(2)">Men's
+                            Wear</a>
+                        <a href="#" role="button" class="dropdown-item" role="button" onclick="displayItems(3)">Women's
+                            Wear</a>
+                    </div>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" role="button" onclick=" displayItems(4)"><b>FOODS</b></a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#" role="button" onclick="displayItems(5)"><b>BOOKS</b></a>
+                </li>
+
+            </ul>
+        </div>
+    </nav>
+
+
+
+    <div class="myRow">
+
+        <div id="demo" class="carousel slide" data-ride="carousel">
+
+            <!-- Indicators -->
+            <ul class="carousel-indicators">
+                <li data-target="#demo" data-slide-to="0" class="active"></li>
+                <li data-target="#demo" data-slide-to="1"></li>
+                <li data-target="#demo" data-slide-to="2"></li>
+                <li data-target="#demo" data-slide-to="3"></li>
+                <li data-target="#demo" data-slide-to="4"></li>
+
+
+
+            </ul>
+
+            <!-- The slideshow -->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="images\h1.jpg" alt="New York">
+                    <img src="images\h2.jpg" alt="New York">
+                    <img src="images\h3.jpg" alt="New York">
+                    <img src="images\h6.jpg" alt="New York">
+
+                    <div class="carousel-caption">
+                        <h3>HOME APPLIANCES</h3>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <img src="images\m1.jpg" alt="Los Angeles">
+                    <img src="images\m2.jpg" alt="Los Angeles">
+                    <img src="images\m3.jpg" alt="Los Angeles">
+                    <img src="images\m4.jpg" alt="Los Angeles"></img>
+                    <div class="carousel-caption">
+                        <h3>MEN's WEAR</h3>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <img src="images\w1.jpg" alt="Chicago">
+                    <img src="images\w2.jpg" alt="Chicago">
+                    <img src="images\w3.jpg" alt="Chicago">
+                    <img src="images\w4.jpg" alt="Chicago">
+                    <div class="carousel-caption">
+                        <h3>WOMEN's WEAR</h3>
+                    </div>
+                </div>
+
+
+                <div class="carousel-item">
+                    <img src="images\f1.jpg" alt="New York">
+                    <img src="images\f2.jpg" alt="New York">
+                    <img src="images\f3.jpg" alt="New York">
+                    <img src="images\f6.jpg" alt="New York">
+                    <div class="carousel-caption">
+                        <h3>FOODS</h3>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images\book1.jpg" alt="New York">
+                    <img src="images\book2.jpg" alt="New York">
+                    <img src="images\book3.jpg" alt="New York">
+                    <img src="images\book4.jpg" alt="New York">
+                    <div class="carousel-caption">
+                        <h3>BOOKS</h3>
+                    </div>
+                </div>
+
+
+
+            </div>
+
+            <!-- Left and right controls -->
+            <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#demo" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </a>
+
+        </div>
+
+    </div>
+
+
+
+    <div id="footer">
+
+
+
+
+        <div id="use">
+            <strong>REACH OUT TO US</strong> <br>
+            <a href="https://www.facebook.com">
+                <i class="bi bi-facebook" style="color: black;"></i>
+            </a>
+            <a href="https://www.instagram.com">
+                <i class="bi bi-instagram" style="color: black;"></i>
+            </a>
+            <a href="https://www.twitter.com">
+                <i class="bi bi-twitter" style="color: black;"></i>
+            </a><br>
+
+            <strong style="color: rgb(255, 255, 255);"><i
+                    class="bi bi-envelope"></i>customercare@mithra.com</strong><br>
+            <p style="color: black;">Copyright © 2026 mithra.All rights reserved</p>
+        </div>
+
+        <div style="clear: both;"></div>
+
+    </div>
+    <div id="flexOutput"></div>
+    <div id="finalBill"></div>
+    <script src="JS\data.js"></script>
+
+</body>
+
+</html>

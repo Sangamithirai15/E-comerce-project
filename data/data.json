@@ -1,0 +1,207 @@
+[
+    {
+        "filter_id": 1,
+        "products": [
+            {
+                "product_id": 10,
+                "product_name": "Washing Machine",
+                "imgSrc": "images/h1.jpg",
+                "price": 15000
+            },
+            {
+                "product_id": 11,
+                "product_name": "Oven",
+                "imgSrc": "images/h2.jpg",
+                "price": 5000
+            },
+            {
+                "product_id": 13,
+                "product_name": "Refrigerator",
+                "imgSrc": "images/h3.jpg",
+                "price": 25000
+            },
+            {
+                "product_id": 14,
+                "product_name": "Air Fryer",
+                "imgSrc": "images/h4.jpg",
+                "price": 5000
+            },
+            {
+                "product_id": 15,
+                "product_name": "Mixer",
+                "imgSrc": "images/h5.jpg",
+                "price": 7000
+            },
+            {
+                "product_id": 16,
+                "product_name": "Kettle",
+                "imgSrc": "images/h6.jpg",
+                "price": 900
+            }
+        ]
+    },
+    {
+        "filter_id": 2,
+        "products": [
+            {
+                "product_id": 17,
+                "product_name": "Full hand T Shirt",
+                "imgSrc": "images/m1.jpg",
+                "price": 900
+            },
+            {
+                "product_id": 18,
+                "product_name": "Formal suit",
+                "imgSrc": "images/m2.jpg",
+                "price": 5000
+            },
+            {
+                "product_id": 19,
+                "product_name": "Hoodie",
+                "imgSrc": "images/m3.jpg",
+                "price": 600
+            },
+            {
+                "product_id": 20,
+                "product_name": "Leather jacket",
+                "imgSrc": "images/m4.jpg",
+                "price": 3000
+            },
+            {
+                "product_id": 21,
+                "product_name": "Polo shirt",
+                "imgSrc": "images/m5.jpg",
+                "price": 600
+            },
+            {
+                "product_id": 22,
+                "product_name": "Casual Wear",
+                "imgSrc": "images/m6.jpg",
+                "price": 500
+            }
+        ]
+    },
+    {
+        "filter_id": 3,
+        "products": [
+            {
+                "product_id": 23,
+                "product_name": "Crop Top",
+                "imgSrc": "images/w1.jpg",
+                "price": 399
+            },
+            {
+                "product_id": 24,
+                "product_name": "Coat",
+                "imgSrc": "images/w2.jpg",
+                "price": 1999
+            },
+            {
+                "product_id": 25,
+                "product_name": "Party Dress",
+                "imgSrc": "images/w3.jpg",
+                "price": 1500
+            },
+            {
+                "product_id": 26,
+                "product_name": "Denim Jacket",
+                "imgSrc": "images/w4.jpg",
+                "price": 800
+            },
+            {
+                "product_id": 27,
+                "product_name": "Hoodie",
+                "imgSrc": "images/w5.jpg",
+                "price": 900
+            },
+            {
+                "product_id": 28,
+                "product_name": "Mini Dress",
+                "imgSrc": "images/w6.jpg",
+                "price": 1000
+            }
+        ]
+    },
+    {
+        "filter_id": 4,
+        "products": [
+            {
+                "product_id": 29,
+                "product_name": "Dosa",
+                "imgSrc": "images/f1.jpg",
+                "price": 60
+            },
+            {
+                "product_id": 30,
+                "product_name": "Briyani",
+                "imgSrc": "images/f2.jpg",
+                "price": 180
+            },
+            {
+                "product_id": 31,
+                "product_name": "Parotta",
+                "imgSrc": "images/f3.jpg",
+                "price": 50
+            },
+            {
+                "product_id": 32,
+                "product_name": "Burger",
+                "imgSrc": "images/f4.jpg",
+                "price": 120
+            },
+            {
+                "product_id": 33,
+                "product_name": "Cupcake",
+                "imgSrc": "images/f5.jpg",
+                "price": 80
+            },
+            {
+                "product_id": 34,
+                "product_name": "Pasta",
+                "imgSrc": "images/f6.jpg",
+                "price": 150
+            }
+        ]
+    },
+    {
+        "filter_id": 5,
+        "products": [
+            {
+                "product_id": 35,
+                "product_name": "Twisted Love",
+                "imgSrc": "images/book1.jpg",
+                "price": 600
+            },
+            {
+                "product_id": 36,
+                "product_name": "Twisted Games",
+                "imgSrc": "images/book2.jpg",
+                "price": 600
+            },
+            {
+                "product_id": 37,
+                "product_name": "Twisted Hate",
+                "imgSrc": "images/book3.jpg",
+                "price": 600
+            },
+            {
+                "product_id": 38,
+                "product_name": "Twisted Fate",
+                "imgSrc": "images/book4.jpg",
+                "price": 600
+            },
+            {
+                "product_id": 39,
+                "product_name": "Twisted Heart",
+                "imgSrc": "images/book5.jpg",
+                "price": 600
+            },
+            {
+                "product_id": 40,
+                "product_name": "Twisted Lies",
+                "imgSrc": "images/book6.jpg",
+                "price": 600
+            }
+        ]
+    }
+]
